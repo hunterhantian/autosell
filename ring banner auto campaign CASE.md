@@ -20,6 +20,7 @@
 - 8. 培育按样本和风险推进，不按“第几天算法就成熟”推进
 - 9. SI能走的路径已区分：公开文档有BAC，MCP没有新建工具
 - 10. 来源字典、对账与必须保留的缺口
+- 11. 补充（2026-11-20）：基础调研53词中29个未在自动广告搜索词中出现
 
 ## 1. 主选：一条loose主力 + 一条小额close探索；不复制V2
 
@@ -355,6 +356,35 @@ SI公开文档确认路径Mass Campaigns → Bulk Auto Campaigns；2024年官方
 - [SI：默认Bulk Auto战略目标内容](https://help.scaleinsights.com/en/knowledge-base/bulk-auto)（Scale Insights 官方）
 
 本次未创建或修改广告，未提交propose/apply，未部署任何规则；原诊断时间线Page保留，本页是独立新培育方案。保留既有盈利结构与AUTO V2不变，是执行边界，不是对其当前盈利的重新认证。
+
+---
+
+## 11. 补充（2026-11-20）：基础调研53词中29个未在自动广告搜索词中出现
+
+> 只读对比，没有创建、修改任何广告。
+
+**口径**
+- 基础调研词：2026-11-16 Helium 10 Magnet 基础投放计划，共53个正向关键词（engagement 42、ring 11），H10 月搜索量均 >200。
+- 自动广告搜索词：Amazon 官方 SP 逐日搜索词报告，日期 2026-09-16 至 2026-11-17，3个自动活动（L0 ring banner AUTO 紧密 宽泛、L0 AUTO 同类ASIN 关联ASIN、AUTO V2 ring banner），318个去重搜索词（其中79个为ASIN）。
+- 比对方式：小写、去多余空格后完全一致才算出现；另标注单复数/语序近似变体。
+- 重要限制：官方搜索词报告一般只列有点击的搜索词，因此“未出现”表示这段时间内没有点击，不等于没有曝光。AUTO V2 于2026-08-14开启，更早阶段无逐日搜索词数据。
+
+**结果**
+- 出现过：24个。有一定量的只有9个（engagement decorations、engagement decor、engagement party decor、she said yes decorations、engaged decorations、just engaged decorations、engagement banner、engagement party decorations、engagement balloons），其余15个累计曝光都少于20次。
+- engagement party decorations（H10月搜24,186）在自动广告中仅196次曝光、8次点击、2单，覆盖明显不足。
+- 未出现：29个（engagement 23、ring 6）。其中3个有近似变体出现过（decorations for engagement party、engagement party banner、engagement party decoration），真正完全未覆盖的有26个。
+
+**未出现的29个词（H10月搜）**
+
+| 方向 | 关键词与月搜 |
+| --- | --- |
+| engagement | engaged cake topper 2315；happy engagement decorations 1023；happy engagement banner 690；engaged sign 679；engagement backdrop 677；she said yes sign 657；just engaged banner 651；decorations for engagement party 634；engagement party sign 629；engagement party banner 601；were engaged sign 598；just engaged sign 545；engagement confetti 537；engaged decor 494；engagement party photo booth props 484；engagement party decoration 387；we're engaged sign 367；she said yes backdrop 317；he asked she said yes decorations 311；engagement wall decor 287；congratulations banner engagement 260；congrats engagement decorations 242；congratulations engagement banner 227 |
+| ring | ring cupcake toppers 659；engagement ring balloon 613；ring centerpieces for table 382；diamond ring balloon 375；engagement ring cupcake toppers 372；diamond ring decor 278 |
+
+**对自动广告理解的补充**
+- 两个月内，自动广告的点击集中在少数订婚大词上，长尾词（sign、happy engagement、backdrop、cake/cupcake topper、diamond ring 等）基本拿不到点击。
+- 自动广告不能替代基于调研词的手动精准覆盖。未跑出来的词不代表无效，需要用手动精准、小预算单独验证它们的曝光、点击和转化；测试方案须另行经用户批准。
+- 本地对比表：`/workspace/ringbanner/kw_vs_auto_20261120/基础词_vs_自动广告搜索词.csv`（box审计路径，未上传GitHub）。
 
 ---
 
